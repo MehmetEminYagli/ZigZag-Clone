@@ -34,7 +34,8 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         yon = Vector3.forward;
-        _zeminSpawner = FindAnyObjectByType<ZeminSpawner>();
+        //_zeminSpawner = FindAnyObjectByType<ZeminSpawner>();
+        _zeminSpawner  = FindObjectOfType<ZeminSpawner>();
     }
 
     private void Update()
